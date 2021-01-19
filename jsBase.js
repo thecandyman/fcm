@@ -4,11 +4,11 @@ function createHeader() {
 	var sp = "&nbsp\;";
 	var sp2 = "&nbsp\;&nbsp\;";
 	
-	var menus = ["Home", "Chi siamo", "Statuto"];
-	var links = ["index.html", "chisiamo.html", "statuto.html"];
+	var menus = ["Home", "La Fondazione", "Attività", "Pubblicazioni"];
+	var links = ["index.html", "fondazione.html", "attivita.html", "pubblicazione.html"];
 	
-	var pageIds = ["home", "chisiamo", "statuto"];
-	var menuIds = [		0,			1,	2];
+	var pageIds = ["home", "fondazione", "statuto"];
+	var menuIds = [		0,			1,	2, 3];
 
 	//// Get the current page filename
 	var pageId = document.getElementsByTagName("html")[0].getAttribute("id"); 	
